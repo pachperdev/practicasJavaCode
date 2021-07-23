@@ -46,7 +46,7 @@ public class ej7 {
         }
 
         System.out.println("el total vendido es: " + totalVendido);
-        System.out.println("gracias por su compra :)");
+        System.out.println("gracias por su compra :) ");
 
         Leer.close();
     }
