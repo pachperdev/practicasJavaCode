@@ -59,6 +59,16 @@ public class s3ej1 {
             }
         }
 
+        double prom;
+        for (int i = 0; i < productos; i++) {
+            prom = 0;
+            for (int j = 0; j < sedes; j++) {
+                prom += tablaCantidadBodega[i][j];
+            }
+            prom = prom / sedes;
+            System.out.println("El promedio de productos del codigo " + listaCodigo[i] + " es " + prom);
+        }
+
         Leer.close();
     }
 }
